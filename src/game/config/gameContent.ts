@@ -71,7 +71,7 @@ export const GAME_CONTENT = {
     atBench: "Let's sit here for a while.",
     benchKey: "Press E to sit together",
     benchTouch: "Tap Sit",
-    ended: "Chapter One",
+    ended: "Mahinoor",
     endedSub: "Sang Hu Tere",
   },
 
@@ -147,9 +147,9 @@ export const GAME_CONTENT = {
     firstMeeting: {
       enabled: true,
       lines: [
-        { speaker: "boy", text: "Tum aa gayi.. main kab se yahan wait kar raha tha." },
-        { speaker: "girl", text: "Yeh jagah toh sach mein khoobsurat hai, Kifayat." },
-        { speaker: "boy", text: "Ruko.. pehle kisi se milwata hoon." },
+        { speaker: "boy", text: "Ji, Kaise hai aap Sarha" },
+        { speaker: "girl", text: "Aap kabse mera intezaar kar rahe yahan Kifayat?." },
+        { speaker: "boy", text: "Uff, Dw yaar, Mujh aaccha lagta intezaar karna aapke liye, khair chodein wo sab, kisi se milwana tha aapko" },
       ],
     },
 
@@ -157,8 +157,8 @@ export const GAME_CONTENT = {
     catHandover: {
       enabled: true,
       lines: [
-        { speaker: "girl", text: "Aww.. yeh toh kitna pyaara hai!" },
-        { speaker: "boy", text: "Ab yeh tumhara hai. Iska khayal rakhna." },
+        { speaker: "girl", text: "Aww.. yeh toh kitni pyaara hai Kifayat!" },
+        { speaker: "boy", text: "Ab ye aapki hui, Hamare saath rahegi ye hamesha ab." },
         { speaker: "girl", text: "Pakka. Ab hum teeno saath saath." },
       ],
     },
@@ -167,9 +167,13 @@ export const GAME_CONTENT = {
     iceCreamShop: {
       enabled: true,
       lines: [
-        { speaker: "boy", text: "Yahan ka ice cream famous hai. Kaunsa flavour logi?" },
-        { speaker: "girl", text: "Strawberry! Aur tumhare liye pistachio?" },
-        { speaker: "boy", text: "Perfect. Aaj ka din aur bhi meetha ho gaya." },
+        { speaker: "boy", text: "Aapko icecreams bohot pasand na Sarha, yaad hai wo ek wada?   JI... Mere saath khaana pasand karenge ? Hai ijazat?" },
+        { speaker: "girl", text: "uff, Ji kifayat, bohot pasand rahega mujhe, par ye 3 kyu?" },
+        { speaker: "boy", text: "1 Icecream kaun hi khaata hai? aapke liye toh 2 best, hamara favv choco n butterscotch, aur mera wala chcocolate jo ofc aapka hi jo" },
+        { speaker: "girl", text: "uff, aapko yaad tha ye reference?" },
+        { speaker: "boy", text: "Apki har ek choti se choti cheez hamesha se yaad rahi hai jo?" },
+        { speaker: "girl", text: "uff aapko meri har ek choti se choti cheez itni matter karti?" },
+        { speaker: "boy", text: "Ji bohot zyaada, coz yaad hai? Admire and enjoy litle things in life? " },
       ],
     },
 
@@ -178,7 +182,7 @@ export const GAME_CONTENT = {
       enabled: true,
       lines: [
         { speaker: "girl", text: "Kitni pyaari shop hai yeh!" },
-        { speaker: "boy", text: "Ruko.. tumhare bag ke liye kuch special hai." },
+        { speaker: "boy", text: "kuch hai mere pass aapke liye sarha, Yaad hai ye wada aapko? wo hamesha wala bow hamara." },
       ],
     },
 
@@ -186,8 +190,10 @@ export const GAME_CONTENT = {
     waterfrontArrival: {
       enabled: true,
       lines: [
-        { speaker: "girl", text: "Yeh view.. kitna khoobsurat hai." },
-        { speaker: "boy", text: "Chalo, yahan baithte hai. Thodi der bas hum." },
+        { speaker: "girl", text: "Uff, kitna zyaada maza aya kifayat, sabkuch hi bohot enjoy kia maine, bohot maza aya." },
+        { speaker: "boy", text: "Aap khush hai na sarha ?" },
+        { speaker: "girl", text: "Uff, bohot zyaada, bohot zyaada maza aya. sabkuch bohot zyaada khubsurat hai kifayat. Aur aap khush hai kifayat?" },
+        { speaker: "boy", text: "uff.. Meri khushi toh aapse hi na sarha, Aap khush toh mai bohot zyaada khush phir" },
       ],
     },
 
@@ -195,9 +201,11 @@ export const GAME_CONTENT = {
     finalBench: {
       enabled: true,
       lines: [
-        { speaker: "girl", text: "Kifayat.. ek kaam karte hai ?" },
-        { speaker: "boy", text: "Do baatein karte hai?" },
-        { speaker: "girl", text: "Teen lafzon mein apna haal bayaan karte hai" },
+        { speaker: "girl", text: "Kifayat..." },
+        { speaker: "boy", text: "Ji Sarha... Hu Mai Yahi aapke pass dw, Kahein ji" },
+        { speaker: "girl", text: "Ek kaam karte hai ?" },
+        { speaker: "boy", text: "Do Baatein karte hai?" },
+        { speaker: "girl", text: "Teen lafzon mein apna haal Bayaan karte hai?" },
       ],
     },
   } satisfies Record<DialogueSceneId, DialogueScene>,
