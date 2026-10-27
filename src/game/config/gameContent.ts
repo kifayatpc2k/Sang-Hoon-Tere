@@ -167,9 +167,13 @@ export const GAME_CONTENT = {
     iceCreamShop: {
       enabled: true,
       lines: [
-        { speaker: "boy", text: "Aapko icecreams bohot pasand na Sarha,yaad hai wo ek wada? JI... Mere saath khaana pasand karenge ? Hai ijazat?" },
+        { speaker: "boy", text: "Aapko icecreams bohot pasand na Sarha, yaad hai wo ek wada?   JI... Mere saath khaana pasand karenge ? Hai ijazat?" },
         { speaker: "girl", text: "uff, Ji kifayat, bohot pasand rahega mujhe, par ye 3 kyu?" },
         { speaker: "boy", text: "1 Icecream kaun hi khaata hai? aapke liye toh 2 best, hamara favv choco n butterscotch, aur mera wala chcocolate jo ofc aapka hi jo" },
+        { speaker: "girl", text: "uff, aapko yaad tha ye reference?" },
+        { speaker: "boy", text: "Apki har ek choti se choti cheez hamesha se yaad rahi hai jo?" },
+        { speaker: "girl", text: "uff aapko meri har ek choti se choti cheez itni matter karti?" },
+        { speaker: "boy", text: "Ji bohot zyaada, coz yaad hai? Admire and enjoy litle things in life? " },
       ],
     },
 
@@ -197,9 +201,11 @@ export const GAME_CONTENT = {
     finalBench: {
       enabled: true,
       lines: [
-        { speaker: "girl", text: "Kifayat.. ek kaam karte hai ?" },
-        { speaker: "boy", text: "Do baatein karte hai?" },
-        { speaker: "girl", text: "Teen lafzon mein apna haal bayaan karte hai" },
+        { speaker: "girl", text: "Kifayat..." },
+        { speaker: "boy", text: "Ji Sarha... Hu Mai Yahi aapke pass dw, Kahein ji" },
+        { speaker: "girl", text: "Ek kaam karte hai ?" },
+        { speaker: "boy", text: "Do Baatein karte hai?" },
+        { speaker: "girl", text: "Teen lafzon mein apna haal Bayaan karte hai?" },
       ],
     },
   } satisfies Record<DialogueSceneId, DialogueScene>,
